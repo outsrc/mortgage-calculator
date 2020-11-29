@@ -1,0 +1,20 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks'
+import { MyComponent } from './MyComponent'
+
+<Meta title='my components/MyComponent' component={MyComponent} />
+
+# MyComponent
+
+With `MDX` we can define a story for `MyComponent` right in the middle of our
+Markdown documentation.
+
+<Canvas>
+  <Story
+    name='Regular'
+    args={{
+      name: 'This is a MyComponent'
+    }}
+  >
+    {args => <MyComponent {...args} />}
+  </Story>
+</Canvas>
