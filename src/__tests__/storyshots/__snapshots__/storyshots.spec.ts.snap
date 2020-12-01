@@ -1,11 +1,999 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots my components/MyComponent Regular 1`] = `
+exports[`Storyshots Components/CalculatorFrame Empty Frame 1`] = `
 <div
-  aria-level={1}
-  role="heading"
+  className="bg-gray-100 border-gray-200 rounded px-4 py-2"
 >
-  My First Component: 
-  This is a MyComponent
+  <h1
+    className="text-xl text-gray-800 mb-4"
+  >
+    Mortgage Calculator
+  </h1>
+  <div>
+    content
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/InputField Money Input 1`] = `
+<div
+  className="flex flex-col justify-between"
+>
+  <div
+    className="text-sm w-full text-gray-700 font-normal mb-1"
+  >
+    Mortgage Amount
+  </div>
+  <div
+    className="w-full"
+  >
+    <input
+      className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      value="$300,000"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/InputField Percent Input 1`] = `
+<div
+  className="flex flex-col justify-between"
+>
+  <div
+    className="text-sm w-full text-gray-700 font-normal mb-1"
+  >
+    Interest Rate
+  </div>
+  <div
+    className="w-full"
+  >
+    <input
+      className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      value="3.92 %"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/InputField Years Input 1`] = `
+<div
+  className="flex flex-col justify-between"
+>
+  <div
+    className="text-sm w-full text-gray-700 font-normal mb-1"
+  >
+    Mortgage Period
+  </div>
+  <div
+    className="w-full"
+  >
+    <input
+      className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      value="30 years"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MaximumLoanCalculator Controlled Input 1`] = `
+<div
+  className="bg-gray-100 md:px-4 py-6"
+>
+  <div>
+    <div
+      className="flex flex-col md:flex-row"
+    >
+      <div
+        className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+      >
+        <div
+          className="flex flex-col justify-between"
+        >
+          <div
+            className="text-sm w-full text-gray-700 font-normal mb-1"
+          >
+            Monthly Payments
+          </div>
+          <div
+            className="w-full"
+          >
+            <input
+              className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value="$1,418"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+      >
+        <div
+          className="flex flex-col justify-between"
+        >
+          <div
+            className="text-sm w-full text-gray-700 font-normal mb-1"
+          >
+            Interest Rate
+          </div>
+          <div
+            className="w-full"
+          >
+            <input
+              className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value="3 %"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flex flex-col w-full md:w-4/12 mb-3 md:mb-0 justify-end"
+      >
+        <div
+          className="flex flex-col justify-between"
+        >
+          <div
+            className="text-sm w-full text-gray-700 font-normal mb-1"
+          >
+            Mortgage Period
+          </div>
+          <div
+            className="w-full"
+          >
+            <input
+              className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value="30 years"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-10"
+  >
+    <div
+      className="flex flex-col md:flex-row mb-4 md:mb-0"
+    >
+      <div
+        className="flex flex-col w-6/12 justify-center text-sm text-gray-600"
+      >
+        Total Cost of Mortgage
+      </div>
+      <div
+        className="w-6/12 md:text-right text-sm text-gray-600"
+      >
+        $510,480
+      </div>
+    </div>
+    <div
+      className="flex flex-col md:flex-row mb-4 md:mb-0"
+    >
+      <div
+        className="flex flex-col w-6/12 justify-center text-sm text-gray-600 text-lg text-gray-800"
+      >
+        You could borrow
+      </div>
+      <div
+        className="w-6/12 md:text-right text-sm text-gray-600 text-2xl text-gray-800 font-semibold"
+      >
+        $336,334
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MaximumLoanCalculator Inside Frame 1`] = `
+<div
+  className="bg-gray-100 border-gray-200 rounded px-4 py-2"
+>
+  <h1
+    className="text-xl text-gray-800 mb-4"
+  >
+    Mortgage Calculator
+  </h1>
+  <div>
+    <div>
+      <div
+        className="flex flex-row"
+      >
+        <button
+          className="outline-none font-medium focus:outline-none flex flex-grow flex-shrink-0 justify-center py-3 hover:bg-blue-100 text-blue-400"
+          onClick={[Function]}
+        >
+          Monthly Cost
+        </button>
+        <button
+          className="outline-none font-medium focus:outline-none flex flex-grow flex-shrink-0 justify-center py-3 hover:bg-blue-100"
+          onClick={[Function]}
+        >
+          Maximum Loan
+        </button>
+      </div>
+      <hr />
+      <div>
+        <div
+          className="bg-gray-100 md:px-4 py-6"
+        >
+          <div>
+            <div
+              className="flex flex-col md:flex-row"
+            >
+              <div
+                className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+              >
+                <div
+                  className="flex flex-col justify-between"
+                >
+                  <div
+                    className="text-sm w-full text-gray-700 font-normal mb-1"
+                  >
+                    Monthly Payments
+                  </div>
+                  <div
+                    className="w-full"
+                  >
+                    <input
+                      className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      value="$1,418"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+              >
+                <div
+                  className="flex flex-col justify-between"
+                >
+                  <div
+                    className="text-sm w-full text-gray-700 font-normal mb-1"
+                  >
+                    Interest Rate
+                  </div>
+                  <div
+                    className="w-full"
+                  >
+                    <input
+                      className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      value="3 %"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="flex flex-col w-full md:w-4/12 mb-3 md:mb-0 justify-end"
+              >
+                <div
+                  className="flex flex-col justify-between"
+                >
+                  <div
+                    className="text-sm w-full text-gray-700 font-normal mb-1"
+                  >
+                    Mortgage Period
+                  </div>
+                  <div
+                    className="w-full"
+                  >
+                    <input
+                      className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      value="30 years"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="mt-10"
+          >
+            <div
+              className="flex flex-col md:flex-row mb-4 md:mb-0"
+            >
+              <div
+                className="flex flex-col w-6/12 justify-center text-sm text-gray-600"
+              >
+                Total Cost of Mortgage
+              </div>
+              <div
+                className="w-6/12 md:text-right text-sm text-gray-600"
+              >
+                $510,480
+              </div>
+            </div>
+            <div
+              className="flex flex-col md:flex-row mb-4 md:mb-0"
+            >
+              <div
+                className="flex flex-col w-6/12 justify-center text-sm text-gray-600 text-lg text-gray-800"
+              >
+                You could borrow
+              </div>
+              <div
+                className="w-6/12 md:text-right text-sm text-gray-600 text-2xl text-gray-800 font-semibold"
+              >
+                $336,334
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MaximumLoanInput Controlled Input 1`] = `
+<div
+  className="flex flex-col md:flex-row"
+>
+  <div
+    className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+  >
+    <div
+      className="flex flex-col justify-between"
+    >
+      <div
+        className="text-sm w-full text-gray-700 font-normal mb-1"
+      >
+        Monthly Payments
+      </div>
+      <div
+        className="w-full"
+      >
+        <input
+          className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          value="$2,600"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+  >
+    <div
+      className="flex flex-col justify-between"
+    >
+      <div
+        className="text-sm w-full text-gray-700 font-normal mb-1"
+      >
+        Interest Rate
+      </div>
+      <div
+        className="w-full"
+      >
+        <input
+          className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          value="3.92 %"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-col w-full md:w-4/12 mb-3 md:mb-0 justify-end"
+  >
+    <div
+      className="flex flex-col justify-between"
+    >
+      <div
+        className="text-sm w-full text-gray-700 font-normal mb-1"
+      >
+        Mortgage Period
+      </div>
+      <div
+        className="w-full"
+      >
+        <input
+          className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          value="30 years"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MonthlyCostCalculator Controlled Input 1`] = `
+<div
+  className="bg-gray-100 md:px-4 py-6"
+>
+  <div>
+    <div
+      className="flex flex-col md:flex-row"
+    >
+      <div
+        className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+      >
+        <div
+          className="flex flex-col justify-between"
+        >
+          <div
+            className="text-sm w-full text-gray-700 font-normal mb-1"
+          >
+            Mortgage Amount
+          </div>
+          <div
+            className="w-full"
+          >
+            <input
+              className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value="$400,000"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+      >
+        <div
+          className="flex flex-col justify-between"
+        >
+          <div
+            className="text-sm w-full text-gray-700 font-normal mb-1"
+          >
+            Interest Rate
+          </div>
+          <div
+            className="w-full"
+          >
+            <input
+              className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value="3 %"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flex flex-col w-full md:w-4/12 mb-3 md:mb-0 justify-end"
+      >
+        <div
+          className="flex flex-col justify-between"
+        >
+          <div
+            className="text-sm w-full text-gray-700 font-normal mb-1"
+          >
+            Mortgage Period
+          </div>
+          <div
+            className="w-full"
+          >
+            <input
+              className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value="30 years"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-10"
+  >
+    <div
+      className="flex flex-col md:flex-row mb-4 md:mb-0"
+    >
+      <div
+        className="flex flex-col w-6/12 justify-center text-sm text-gray-600"
+      >
+        Total Cost of Mortgage
+      </div>
+      <div
+        className="w-6/12 md:text-right text-sm text-gray-600"
+      >
+        $606,960
+      </div>
+    </div>
+    <div
+      className="flex flex-col md:flex-row mb-4 md:mb-0"
+    >
+      <div
+        className="flex flex-col w-6/12 justify-center text-sm text-gray-600 text-lg text-gray-800"
+      >
+        Monthly Payments
+      </div>
+      <div
+        className="w-6/12 md:text-right text-sm text-gray-600 text-2xl text-gray-800 font-semibold"
+      >
+        $1,686
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MonthlyCostCalculator Inside Frame 1`] = `
+<div
+  className="bg-gray-100 border-gray-200 rounded px-4 py-2"
+>
+  <h1
+    className="text-xl text-gray-800 mb-4"
+  >
+    Mortgage Calculator
+  </h1>
+  <div>
+    <div>
+      <div
+        className="flex flex-row"
+      >
+        <button
+          className="outline-none font-medium focus:outline-none flex flex-grow flex-shrink-0 justify-center py-3 hover:bg-blue-100 text-blue-400"
+          onClick={[Function]}
+        >
+          Monthly Cost
+        </button>
+        <button
+          className="outline-none font-medium focus:outline-none flex flex-grow flex-shrink-0 justify-center py-3 hover:bg-blue-100"
+          onClick={[Function]}
+        >
+          Maximum Loan
+        </button>
+      </div>
+      <hr />
+      <div>
+        <div
+          className="bg-gray-100 md:px-4 py-6"
+        >
+          <div>
+            <div
+              className="flex flex-col md:flex-row"
+            >
+              <div
+                className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+              >
+                <div
+                  className="flex flex-col justify-between"
+                >
+                  <div
+                    className="text-sm w-full text-gray-700 font-normal mb-1"
+                  >
+                    Mortgage Amount
+                  </div>
+                  <div
+                    className="w-full"
+                  >
+                    <input
+                      className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      value="$400,000"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+              >
+                <div
+                  className="flex flex-col justify-between"
+                >
+                  <div
+                    className="text-sm w-full text-gray-700 font-normal mb-1"
+                  >
+                    Interest Rate
+                  </div>
+                  <div
+                    className="w-full"
+                  >
+                    <input
+                      className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      value="3 %"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="flex flex-col w-full md:w-4/12 mb-3 md:mb-0 justify-end"
+              >
+                <div
+                  className="flex flex-col justify-between"
+                >
+                  <div
+                    className="text-sm w-full text-gray-700 font-normal mb-1"
+                  >
+                    Mortgage Period
+                  </div>
+                  <div
+                    className="w-full"
+                  >
+                    <input
+                      className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      value="30 years"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="mt-10"
+          >
+            <div
+              className="flex flex-col md:flex-row mb-4 md:mb-0"
+            >
+              <div
+                className="flex flex-col w-6/12 justify-center text-sm text-gray-600"
+              >
+                Total Cost of Mortgage
+              </div>
+              <div
+                className="w-6/12 md:text-right text-sm text-gray-600"
+              >
+                $606,960
+              </div>
+            </div>
+            <div
+              className="flex flex-col md:flex-row mb-4 md:mb-0"
+            >
+              <div
+                className="flex flex-col w-6/12 justify-center text-sm text-gray-600 text-lg text-gray-800"
+              >
+                Monthly Payments
+              </div>
+              <div
+                className="w-6/12 md:text-right text-sm text-gray-600 text-2xl text-gray-800 font-semibold"
+              >
+                $1,686
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MonthlyCostInput Controlled Input 1`] = `
+<div
+  className="flex flex-col md:flex-row"
+>
+  <div
+    className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+  >
+    <div
+      className="flex flex-col justify-between"
+    >
+      <div
+        className="text-sm w-full text-gray-700 font-normal mb-1"
+      >
+        Mortgage Amount
+      </div>
+      <div
+        className="w-full"
+      >
+        <input
+          className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          value="$400,000"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+  >
+    <div
+      className="flex flex-col justify-between"
+    >
+      <div
+        className="text-sm w-full text-gray-700 font-normal mb-1"
+      >
+        Interest Rate
+      </div>
+      <div
+        className="w-full"
+      >
+        <input
+          className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          value="3.92 %"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-col w-full md:w-4/12 mb-3 md:mb-0 justify-end"
+  >
+    <div
+      className="flex flex-col justify-between"
+    >
+      <div
+        className="text-sm w-full text-gray-700 font-normal mb-1"
+      >
+        Mortgage Period
+      </div>
+      <div
+        className="w-full"
+      >
+        <input
+          className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          value="30 years"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/ResultLine No Value 1`] = `
+<div>
+  <div
+    className="flex flex-col md:flex-row mb-4 md:mb-0"
+  >
+    <div
+      className="flex flex-col w-6/12 justify-center text-sm text-gray-600"
+    >
+      Total Cost of Mortgage
+    </div>
+    <div
+      className="w-6/12 md:text-right text-sm text-gray-600"
+    >
+      -
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/ResultLine One Line 1`] = `
+<div>
+  <div
+    className="flex flex-col md:flex-row mb-4 md:mb-0"
+  >
+    <div
+      className="flex flex-col w-6/12 justify-center text-sm text-gray-600"
+    >
+      Total Cost of Mortgage
+    </div>
+    <div
+      className="w-6/12 md:text-right text-sm text-gray-600"
+    >
+      $510,640
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/ResultLine Two Lines 1`] = `
+<div>
+  <div
+    className="flex flex-col md:flex-row mb-4 md:mb-0"
+  >
+    <div
+      className="flex flex-col w-6/12 justify-center text-sm text-gray-600"
+    >
+      Total Cost of Mortgage
+    </div>
+    <div
+      className="w-6/12 md:text-right text-sm text-gray-600"
+    >
+      $510,640
+    </div>
+  </div>
+  <div
+    className="flex flex-col md:flex-row mb-4 md:mb-0"
+  >
+    <div
+      className="flex flex-col w-6/12 justify-center text-sm text-gray-600 text-lg text-gray-800"
+    >
+      Monthly Payments
+    </div>
+    <div
+      className="w-6/12 md:text-right text-sm text-gray-600 text-2xl text-gray-800 font-semibold"
+    >
+      $1,418
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/TabSelector With Tab Selector 1`] = `
+<div
+  className="w-full md:w-6/12 mx-auto my-10"
+>
+  <div
+    className="bg-gray-100 border-gray-200 rounded px-4 py-2"
+  >
+    <h1
+      className="text-xl text-gray-800 mb-4"
+    >
+      Mortgage Calculator
+    </h1>
+    <div>
+      <div>
+        <div
+          className="flex flex-row"
+        >
+          <button
+            className="outline-none font-medium focus:outline-none flex flex-grow flex-shrink-0 justify-center py-3 hover:bg-blue-100 text-blue-400"
+            onClick={[Function]}
+          >
+            Monthly Cost
+          </button>
+          <button
+            className="outline-none font-medium focus:outline-none flex flex-grow flex-shrink-0 justify-center py-3 hover:bg-blue-100"
+            onClick={[Function]}
+          >
+            Maximum Loan
+          </button>
+        </div>
+        <hr />
+        <div>
+          <div
+            className="bg-gray-100 md:px-4 py-6"
+          >
+            <div>
+              <div
+                className="flex flex-col md:flex-row"
+              >
+                <div
+                  className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+                >
+                  <div
+                    className="flex flex-col justify-between"
+                  >
+                    <div
+                      className="text-sm w-full text-gray-700 font-normal mb-1"
+                    >
+                      Mortgage Amount
+                    </div>
+                    <div
+                      className="w-full"
+                    >
+                      <input
+                        className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        value="$400,000"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="flex flex-col w-full md:w-4/12 md:mr-3 mb-3 md:mb-0 justify-end"
+                >
+                  <div
+                    className="flex flex-col justify-between"
+                  >
+                    <div
+                      className="text-sm w-full text-gray-700 font-normal mb-1"
+                    >
+                      Interest Rate
+                    </div>
+                    <div
+                      className="w-full"
+                    >
+                      <input
+                        className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        value="3 %"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="flex flex-col w-full md:w-4/12 mb-3 md:mb-0 justify-end"
+                >
+                  <div
+                    className="flex flex-col justify-between"
+                  >
+                    <div
+                      className="text-sm w-full text-gray-700 font-normal mb-1"
+                    >
+                      Mortgage Period
+                    </div>
+                    <div
+                      className="w-full"
+                    >
+                      <input
+                        className="w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 outline-none focus:outline-none focus:border-blue-200"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        value="30 years"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="mt-10"
+            >
+              <div
+                className="flex flex-col md:flex-row mb-4 md:mb-0"
+              >
+                <div
+                  className="flex flex-col w-6/12 justify-center text-sm text-gray-600"
+                >
+                  Total Cost of Mortgage
+                </div>
+                <div
+                  className="w-6/12 md:text-right text-sm text-gray-600"
+                >
+                  $606,960
+                </div>
+              </div>
+              <div
+                className="flex flex-col md:flex-row mb-4 md:mb-0"
+              >
+                <div
+                  className="flex flex-col w-6/12 justify-center text-sm text-gray-600 text-lg text-gray-800"
+                >
+                  Monthly Payments
+                </div>
+                <div
+                  className="w-6/12 md:text-right text-sm text-gray-600 text-2xl text-gray-800 font-semibold"
+                >
+                  $1,686
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
